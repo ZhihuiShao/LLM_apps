@@ -51,7 +51,7 @@ A Tampermonkey-based browser extension that helps you reply to emails in Gmail u
 #### Setup Instructions:
 
 ```bash
-git clone https://github.com/yourname/gmail-gpt-reply-assistant.git
+git clone xx
 cd gmail-gpt-reply-assistant
 python -m venv venv
 source venv/bin/activate
