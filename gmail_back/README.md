@@ -33,7 +33,7 @@ A Tampermonkey-based browser extension that helps you reply to emails in Gmail u
 ### 2. Add the Userscript
 
 - Create a new script in Tampermonkey.
-- Paste the contents of `Gmail-GPT-Reply-Assistant.user.js`.
+- Paste the contents of `gmail_GPT_script.js`.
 - Save the script.
 
 ✅ The button `✉️ GPT Reply` will appear when you open a Gmail reply editor.
@@ -52,7 +52,7 @@ A Tampermonkey-based browser extension that helps you reply to emails in Gmail u
 
 ```bash
 git clone xx
-cd gmail-gpt-reply-assistant
+cd gmail_back
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
